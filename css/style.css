@@ -1,0 +1,170 @@
+@font-face {
+	font-family: 'Inter-Medium';
+	src: url('/fonts/Inter/static/Inter-Medium.ttf');
+}
+@font-face {
+	font-family: 'Inter-Bold';
+	src: url('/fonts/Inter/static/Inter-Bold.ttf');
+}
+@font-face {
+	font-family: 'Inter-Light';
+	src: url('/fonts/Inter/static/Inter-Light.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter-Medium';
+}
+
+.wrapper {
+    margin: 30px auto;
+}
+
+.section {
+    max-width: 1240px;
+ margin: 0 auto;
+}
+
+.logo {
+    width: 300px;
+}
+
+.nav {
+    width: calc(100% - 400px);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+/* Лого */
+
+.logo {
+    width: 290px;
+}
+
+.logo-pic {
+    display: block;
+    width: 100%;
+}
+
+/* Лого, конец */
+
+
+/* Меню */
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-list-link {
+    font-family: 'Inter-Bold';
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.nav-list-link:hover {
+    color: #4EC7B4
+}
+
+.nav-list-link:active {
+    color: #4EC7B4
+}
+
+
+/* Меню, конец */
+
+/* Верхняя секция */
+
+.top-section {
+    padding: 60px 0;
+}
+
+.top-month {
+    padding: 40px 0;
+}
+
+.top-month-text {
+    font-size: 28px;
+    line-height: 34px;
+    font-family: "Inter-Light";
+    color: #E4003B
+}
+
+/* Верхняя секция, конец */
+
+/* Секция данных о программах */
+
+.text-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text-content-left {
+    width: calc(100% - 440px);
+}
+
+.text-content-right {
+    width: 400px;
+}
+
+.text-content-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.content-programm-text {
+    width: 205px;
+}
+
+.content-programm-info {
+    width: calc(100% - 205px);
+}
+
+.content-programm-title {
+    font-family: "Inter-Bold";
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+
+.content-programm-p {
+    font-family: "Inter-Light";
+    font-size: 16px;
+    line-height: 20px;
+    padding: 3px 0;
+}
+
+.content-programm-red {
+    font-family: "Inter-Light";
+    font-size: 16px;
+    line-height: 20px;
+    padding: 3px 0;
+    color: #E4003B
+}
+
+.content-organisators-item {
+    padding-top: 30px;
+}
+
+.content-programm-link {
+    color: #50C7B4;
+    text-decoration: underline;
+}
+
+/* Секция данных о программах, конец */
