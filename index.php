@@ -3,34 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rehau</title>
+    <title>Главная</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <div class="wrapper">
 
-        <header class = "header section">
-            <div class="logo">
-                <img src="images/logo.png" alt="" class="logo-pic">
-            </div>
-            <nav class = "nav">
-                <ul class = "nav-list">
-                    <li class = "nav-list-item">
-                        <a href="" class="nav-list-link">Общая информация</a>
-                    </li>
-                    <li class = "nav-list-item">
-                        <a href="" class="nav-list-link">Программа «СПК»</a>
-                    </li>
-                    <li class = "nav-list-item">
-                        <a href="" class="nav-list-link">Программа «ИНЖЕНЕРНЫЕ СИСТЕМЫ»</a>
-                    </li>
-                    <li class = "nav-list-item">
-                        <a href="" class="nav-list-link">«МЕБЕЛЬНЫЕ СИСТЕМЫ»</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+        <? require_once('php/header.php'); ?>
 
         <section class = "section top-section">
             <h1 class = "h1">Приветствуем вас на ежегодной Конференции сотрудников отделов сбыта</h1>
@@ -85,23 +65,27 @@
                 <p class = "content-programm-title">Организаторы мероприятия</p>
                 <div class = "content-organisators-item">
                     <p class = "content-programm-p">Татьяна Малкина</p>
-                    <p class = "content-programm-p">+7 926 800-78-60</p>
+                    <p class = "content-programm-p">+7 926 800-78-60 (звонки, whatsapp, telegram)</p>
                     <a class = "content-programm-link" href="mailto:tatjana.malkina@rhsolutions.ru">tatjana.malkina@rhsolutions.ru</a>
                 </div>
                 <div class = "content-organisators-item">
                     <p class = "content-programm-p">Татьяна Малкина</p>
-                    <p class = "content-programm-p">+7 926 800-78-60</p>
+                    <p class = "content-programm-p">+7 926 800-78-60 (звонки, whatsapp, telegram)</p>
                     <a class = "content-programm-link" href="mailto:tatjana.malkina@rhsolutions.ru">tatjana.malkina@rhsolutions.ru</a>
                 </div>
                 <div class = "content-organisators-item">
                     <p class = "content-programm-p">Татьяна Малкина</p>
-                    <p class = "content-programm-p">+7 926 800-78-60</p>
+                    <p class = "content-programm-p">+7 926 800-78-60 (звонки, whatsapp, telegram)</p>
                     <a class = "content-programm-link" href="mailto:tatjana.malkina@rhsolutions.ru">tatjana.malkina@rhsolutions.ru</a>
                 </div>
+                <div class = "main-pic"></div>
             </div>
         </section>
-
+        <? require_once('php/to-top.php'); ?>
+        <? require_once('php/green-bottom.php'); ?>
     </div>
+
+    <? require_once('php/footer.php'); ?>
     
 </body>
 </html>
