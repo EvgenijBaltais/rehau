@@ -11,7 +11,7 @@
 		<? require_once('../php/header.php'); ?>
 		<div class="top-slider top-slider-spk" style = "background-image: url('/images/g3.jpg');">
 			<div class="slider-block">
-				<p class = "slider-block-title">Программа направления «МЕБЕЛЬНЫЕ КОМПЛЕКТУЮЩИЕ»</p>
+				<p class = "slider-block-title">Программа «МЕБЕЛЬНЫЕ КОМПЛЕКТУЮЩИЕ»</p>
 				<button class = "slider-block-button">Перейти к программе</button>
 			</div>
 		</div>

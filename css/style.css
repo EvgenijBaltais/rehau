@@ -417,3 +417,277 @@
 }
 
 /* Футер, конец */
+
+/* Меню */
+
+
+.menu-area {
+	display: none;
+}
+.menu-area-w {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 5;
+}
+.menu-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 32px;
+    height: 24px;
+    cursor: pointer;
+    position: relative;
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+}
+.menu-icon span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: #000;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+.menu-icon span:nth-child(1) {
+   top: 0;
+}
+.menu-icon span:nth-child(2),
+.menu-icon span:nth-child(3) {
+   top: 12px;
+}
+.menu-icon span:nth-child(4) {
+   top: 24px;
+}
+.menu-icon.open span:nth-child(1) {
+   top: 18px;
+   width: 0;
+   left: 50%;
+}
+.menu-icon.open span:nth-child(2) {
+   transform: rotate(45deg);
+}
+.menu-icon.open span:nth-child(3) {
+   transform: rotate(-45deg);
+}
+.menu-icon.open span:nth-child(4) {
+   top: 18px;
+   width: 0;
+   left: 50%;
+}
+.menu-icon.open span:nth-child(2) {
+    transform: rotate(45deg);
+}
+.menu-icon.open span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+.menu-icon.open span:nth-child(4) {
+    top: 18px;
+    width: 0;
+    left: 50%;
+}
+
+/* Меню, конец */
+
+@media only screen and (max-width: 1250px) {
+
+    .top-slider {
+        margin: 0 auto 40px auto;
+    }
+
+    .menu-area {
+        position: absolute;
+        display: block;
+        z-index: 5;
+    }
+
+    .logo {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .nav {
+        position: fixed;
+        left: -20px;
+        top: -20px;
+        padding: 40px;
+        background-color: #fff;
+        width: calc(100% + 40px);
+        height: calc(100% + 40px);
+        z-index: 4;
+        display: block;
+        display: none;
+        opacity: 0;
+    }
+    .nav-list {
+        max-width: 360px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 100px 0;
+    }
+    .nav-list-link {
+        font-size: 18px;
+        line-height: 30px;
+        border-bottom: 0!important
+    }
+    .nav-list-item {
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .header {
+        position: relative;
+    }
+
+    .section {
+        padding: 0 20px;
+    }
+
+    .text-content-left {
+        width: 100%;
+    }
+    .text-content-right {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .content-programm-title {
+        width: 205px;
+    }
+    .content-organisators-item {
+        width: calc(100% - 205px);
+    }
+    .content-programm-title + .content-organisators-item {
+        padding-top: 0
+    }
+
+    .text-content {
+        padding-bottom: 100px;
+    }
+    .footer-blocks {
+        flex-wrap: wrap;
+    }
+    .footer-block {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .footer-block:last-child {
+        padding-bottom: 0;
+    }
+
+    .top-slider {
+        height: 440px;
+    }
+
+    .slider-block-button {
+        display: none;
+    }
+
+    .slider-block-title {
+        padding-bottom: 0;
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .slider-block {
+        display: inline-flex;
+        min-width: auto;
+        left: 20px;
+    }
+
+    .page-table {
+        margin-top: 30px;
+        padding-top: 0;
+        overflow: scroll;
+        transform: rotateX(180deg);
+        overflow-x: auto;
+    }
+    .table {
+        width: 1200px;
+        transform: rotateX(180deg);
+    }
+}
+
+@media only screen and (max-width: 680px) {
+
+
+    .top-slider {
+        height: 230px;
+    }
+    .slider-block-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .slider-block {
+        left: 12px;
+        bottom: 20px;
+        padding: 15px;
+    }
+    .logo {
+        width: 210px;
+    }
+
+    .section {
+        padding: 0 15px;
+    }
+    .h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .top-month-text {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .top-month {
+        padding: 20px 0 30px 0;
+    }
+    .content-programm-text {
+        width: 100%;
+    }
+    .content-programm-title {
+        width: 100%;
+        font-family: "Inter-Bold";
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 20px;
+    }
+    .content-programm-info {
+        width: 100%;
+    }
+    .text-content-item {
+        flex-wrap: wrap;
+    }
+
+    .content-programm-info .content-programm-title {
+        padding-bottom: 0
+    }
+
+    .text-content-item {
+        padding-bottom: 40px;
+    }
+
+    .content-organisators-item {
+        width: 100%;
+    }
+    .text-content {
+        padding-bottom: 100px;
+    }
+}
+
+.scroll-locked {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}

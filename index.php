@@ -90,7 +90,6 @@
                     <p class = "content-programm-p">+7 926 800-78-60 (звонки, whatsapp, telegram)</p>
                     <a class = "content-programm-link" href="mailto:tatjana.malkina@rhsolutions.ru">tatjana.malkina@rhsolutions.ru</a>
                 </div>
-                <div class = "main-pic"></div>
             </div>
         </section>
         <? require_once('php/to-top.php'); ?>
