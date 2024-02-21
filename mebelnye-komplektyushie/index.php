@@ -3,24 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Программа «СПК»</title>
+	<title>Программа «МЕБЕЛЬНЫЕ КОМПЛЕКТУЮЩИЕ»</title>
 	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 	<div class="wrapper">
 		<? require_once('../php/header.php'); ?>
-		<div class="top-slider top-slider-spk section" style = "background-image: url('/images/glavnaya.jpg');">
+		<div class="top-slider top-slider-spk" style = "background-image: url('/images/g3.jpg');">
 			<div class="slider-block">
-				<p class = "slider-block-title">Программа направления «СПК»</p>
+				<p class = "slider-block-title">Программа направления «МЕБЕЛЬНЫЕ КОМПЛЕКТУЮЩИЕ»</p>
 				<button class = "slider-block-button">Перейти к программе</button>
 			</div>
 		</div>
 		<section class = "section page-content">
-
-			<h1>«Светопрозрачные конструкции»</h1>
-
+			<h1>«МЕБЕЛЬНЫЕ КОМПЛЕКТУЮЩИЕ»</h1>
 			<div class = "page-table">
-
 				<table class = "table">
 					<thead>
 						<tr>
@@ -34,54 +31,54 @@
 					<tbody>
 <!-- Первый ряд -->
 						<tr>
-							<td rowspan = "5" valign = "top" align = "center" class = "colored-td bold-td ">
+							<td rowspan = "4" valign = "top" align = "center" class = "colored-td bold-td day-td">
 								ПН<br>
-								26.02.
+								26.02
 							</td>
-							<td>
-								14:00-15:30
+							<td colspan = "3" class = "colored-td">
+								БЛОК 1. ВЕСТИ ИЗ РЕГИОНОВ
 							</td>
-							<td>
-								Качество РЕХАУ. Сертификация
-							</td>
-							<td>Константин Гайнуллин,
-								Антон Карявкин
-							</td>
-							<td rowspan = "5" valign = "top">
-								Мехико
+							<td rowspan = "4" valign = "middle">
+								Хельсинки
 							</td>
 						</tr>
 						<tr>
-							<td class = "colored-td">
-								15:30-16:00
+							<td class = "time-td">
+								14:00-14:50
 							</td>
-							<td colspan = "2" class = "colored-td">
+							<td>
+								1.1. Выполнение плана 2024/ Ситуация на рынке/   
+									Инструменты продаж/ потенциалы/ потребности в 
+									регионе/ ТОП 10-20 клиентов 
+							</td>
+							<td class = "name-td">
+								Аверина С.<br>
+								Вымятнин М.<br>
+								Елькин А.
+							</td>
+						</tr>
+						<tr>
+							<td class = "colored-td time-td">
+								16:30-17:00
+							</td>
+							<td  colspan = "2" class = "colored-td">
 								КОФЕ-БРЕЙК
 							</td>
 						</tr>
 						<tr>
-							<td>
-								16:00-17:00
-							</td>
-							<td>
-								Развитие рынка. Итоги 2023 года
-							</td>
-							<td>
-								Павел Иваненко
-							</td>
-						</tr>
-						<tr>
-							<td>
+							<td class = "time-td">
 								17:00-18:00
 							</td>
 							<td>
-								Итоги бюро 2023. Цели 2024. SIP 2024. Новая годовая цель SP.
+								1.1. (продолжение) Выполнение плана 2024/ Ситуация на рынке/ Инструменты продаж/ потенциалы/ потребности в регионе/ ТОП 10-20 клиентов 
 							</td>
-							<td>
-								Павел Калаущенко
+							<td class = "name-td">
+								Самусенко П.
 							</td>
 						</tr>
 						<tr>
+							<td class = "empty-td"></td>
+							<td class = "empty-td"></td>
 							<td class = "empty-td"></td>
 							<td class = "empty-td"></td>
 							<td class = "empty-td"></td>
@@ -89,240 +86,272 @@
 <!-- Первый ряд, конец -->
 <!-- Второй ряд -->
 						<tr>
-							<td rowspan = "13" valign = "top" align = "center" class = "colored-td bold-td">
+							<td rowspan = "10" valign = "top" align = "center" class = "colored-td bold-td day-td">
 								ВТ<br>
-								27.02.
+								27.02
 							</td>
-							<td>
-								09:00-10:00
+							<td colspan = "3" class = "colored-td">
+								БЛОК 2. ПРОДУКТОВОЕ НАПРАВЛЕНИЕ "КОМПЛЕКТУЮЩИЕ & КОМПОНЕНТЫ"
 							</td>
-							<td>
-								Регламент по сбыту
-							</td>
-							<td>
-								Павел Калаущенко
-							</td>
-							<td rowspan = "13" valign = "top">
-								Мехико
+							<td rowspan = "10" valign = "middle">
+								Хельсинки
 							</td>
 						</tr>
 						<tr>
-							<td>
-								10:00-11:00
+							<td class = "time-td">
+								09:00-11:30
 							</td>
 							<td>
-								Продуктовая политика: развитие и локализация. Калькулятор раздвижных систем.
+								2.1. Кромочные материалы. Клей. Стратегия развития
 							</td>
-							<td>
-								Ольга Царькова
+							<td class = "name-td">
+								Кисин С.<br>
+								Бессонова М.
 							</td>
 						</tr>
 						<tr>
-							<td class = "colored-td">
-								11:00-11:15
+							<td class = "colored-td time-td">
+								11:30-12:00
 							</td>
-							<td colspan = "2" class = "colored-td">
-								Кофе-брейк
-							</td>
-						</tr>
-						<tr>
-							<td>
-								11:15-12:15
-							</td>
-							<td>
-								Продуктовая политика: алюминиевые системы RESOLUT
-							</td>
-							<td>
-								Илья Бендерин
+							<td  colspan = "2" class = "colored-td">
+								КОФЕ-БРЕЙК
 							</td>
 						</tr>
 						<tr>
-							<td>
-								12:15-13:00
+							<td class = "time-td">
+								12.00-13.00
 							</td>
 							<td>
-								Цветовая палитра РЕХАУ 2024
+								2.2. Системные продукты.
+								Стратегия развития.
 							</td>
-							<td>
-								Людмила Багдасарян
+							<td class = "name-td">
+								Волков С.<br>
+								Бессонова М.
 							</td>
 						</tr>
 						<tr>
-							<td class = "colored-td">
+							<td class = "colored-td time-td">
 								13:00-14:00
 							</td>
-							<td colspan = "2" class = "colored-td">
+							<td  colspan = "2" class = "colored-td">
 								ОБЕД
 							</td>
 						</tr>
 						<tr>
-							<td>
-								14:00-14:45
+							<td class = "time-td">
+								14:00-15:30
 							</td>
 							<td>
-								Трейд Маркетинг: итоги 2023 и планы 2024
+								2.3. Мебельные компоненты (Фасадные полотна).<br> 
+									Стратегия развития.  
 							</td>
-							<td>
-								Вячеслав Рыблов
+							<td class = "name-td">
+								Храмойченков А.<br>
+								Бессонова М.
 							</td>
 						</tr>
 						<tr>
-							<td>
-								14:45-15:45
-							</td>
-							<td>
-								Маркетплейсы
-							</td>
-							<td>
-								Андрей Куц
+							<td colspan = "3" class = "colored-td">
+								БЛОК 3. КАНАЛЫ СБЫТА ДЛЯ ПРОДУКТОВОГО НАПРАВЛЕНИЯ "КОМПЛЕКТУЮЩИЕ & КОМПОНЕНТЫ"
 							</td>
 						</tr>
 						<tr>
-							<td class = "colored-td">
-								15:45-16:00
+							<td class = "time-td">
+								15:30-16:30
 							</td>
-							<td colspan = "2" class = "colored-td">
-								Кофе-брейк
+							<td>
+								3.1. Дилеры и дилерская политика. 
+								Р-ШОП.
+							</td>
+							<td class = "name-td">
+								Земсков М. 
 							</td>
 						</tr>
 						<tr>
-							<td>
-								16:00-17:00
+							<td class = "colored-td time-td">
+								16:30-17:00
 							</td>
-							<td>
-								Объектный бизнес. Сотрудничество с Roto Frank
-							</td>
-							<td>
-								Руслан Тюменев
+							<td  colspan = "2" class = "colored-td">
+								КОФЕ-БРЕЙК
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								17:00-18:00
 							</td>
 							<td>
-								Презентация о цифровых проектах
+								3.2. Индустрия DIY.<br>
+								Трейд Маркетинг.
 							</td>
-							<td>
-								Дмитрий Брацун
+							<td class = "name-td">
+								Земсков М.<br>
+								Моисеенкова Т.
 							</td>
 						</tr>
 						<tr>
-							<td class = "colored-td">
+							<td>
+							</td>
+							<td class = "colored-td time-td">
 								19.00-21.00
 							</td>
 							<td class = "colored-td">
-								для зарегистрировавшихся: экскурсия «Вечерний город» (автобус 1) или «Мистический Санкт-Петербург» (автобус 2)
+								для зарегистрировавшихся: экскурсия «Мистический Санкт-Петербург» 
 							</td>
 							<td class = "colored-td">
 								Встреча в лобби в 18.45
 							</td>
+							<td class = "colored-td">
+								Автобус 2 
+							</td>
 						</tr>
 						<tr>
+							<td class = "empty-td"></td>
+							<td class = "empty-td"></td>
 							<td class = "empty-td"></td>
 							<td class = "empty-td"></td>
 							<td class = "empty-td"></td>
 						</tr>
 <!-- Второй ряд, конец -->
+
 <!-- Третий ряд -->
 						<tr>
-							<td rowspan = "9" valign = "top" align = "center" class = "colored-td bold-td">
+							<td rowspan = "13" valign = "top" align = "center" class = "colored-td bold-td day-td">
 								СР<br>
-								28.02.
+								28.02
 							</td>
-							<td>
-								08:30-09:00
+							<td colspan = "3" class = "colored-td">
+								БЛОК 4. ПРОДУКТОВОЕ НАПРАВЛЕНИЕ «ГОТОВАЯ МЕБЕЛЬ»
 							</td>
-							<td>
-								Производственная стратегия и запасы
-							</td>
-							<td>
-								Полина Симарзина
-							</td>
-							<td rowspan = "9" valign = "top">
-								Мехико
+							<td rowspan = "13" valign = "middle">
+								Хельсинки
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								09:00-10:30
 							</td>
 							<td>
-								Итоги РК 2023. Исследование потребителей. Медиаплан 2024.
+								4.1. Готовая мебель. Стратегия.<br>
+									Виды мебели. УТП.
 							</td>
-							<td>
-								Анастасия Бычкова
-							</td>
-						</tr>
-						<tr>
-							<td class = "colored-td">
-								10:30-10:45
-							</td>
-							<td colspan = "2" class = "colored-td">
-								Кофе-брейк
+							<td class = "name-td">
+								Храмойченков А.<br>
+								Баранов Д.
 							</td>
 						</tr>
 						<tr>
-							<td>
-								10:45-11:00
+							<td class = "time-td">
+								10:30-11:30
 							</td>
 							<td>
-								Академия: знакомство
+								4.2. Программное обеспечение: CRM/ Базис. 
+								Наполнение библиотек мебели.
 							</td>
-							<td>
-								Виктория Соколова
-							</td>
-						</tr>
-						<tr>
-							<td>
-								11:00-13:00
-							</td>
-							<td>
-								Выступления VTLs
-							</td>
-							<td>
-								VTLs
+							<td class = "name-td">
+								Моисеенкова Т.
 							</td>
 						</tr>
 						<tr>
-							<td class = "colored-td">
+							<td class = "colored-td time-td">
+								11:30-12:00
+							</td>
+							<td class = "colored-td" colspan = "2">
+								КОФЕ-БРЕЙК
+							</td>
+						</tr>
+						<tr>
+							<td colspan = "3" class = "colored-td">
+								БЛОК 5. КАНАЛЫ СБЫТА ДЛЯ НАПРАВЛЕНИЯ «ГОТОВАЯ МЕБЕЛЬ»
+							</td>
+						</tr>
+						<tr>
+							<td class = "time-td">
+								12:00-13:00
+							</td>
+							<td>
+								5.1. РЕХАУ ХОУМ. Франчайзинговый пакет. <br>
+								Профиль партнера. Добавленная стоимость РЕХАУ.
+							</td>
+							<td class = "name-td">
+								Баранов Д.
+							</td>
+						</tr>
+						<tr>
+							<td class = "colored-td time-td">
 								13:00-14:00
 							</td>
-							<td colspan = "2" class = "colored-td">
+							<td class = "colored-td" colspan = "2">
 								ОБЕД
 							</td>
 						</tr>
 						<tr>
-							<td>
-								14:15-15:00
+							<td class = "time-td">
+								14:00-15:00
 							</td>
 							<td>
-								ERP 1C
+							5.1. (продолжение) РЕХАУ ХОУМ. Франчайзинговый пакет. <br>
+							Профиль партнера. Добавленная стоимость РЕХАУ.     
 							</td>
-							<td>
-								Наталия Стрекаловская
-							</td>
-						</tr>
-						<tr>
-							<td>
-								15:00-16:00
-							</td>
-							<td>
-								Тренды на рынке оконных комплектующих
-							</td>
-							<td>
-								Дмитрий Пацей
+							<td class = "name-td">
+								Баранов Д.
 							</td>
 						</tr>
 						<tr>
-							<td>
-								16:00-16:45
+							<td class = "time-td">
+								15:00-15:15
 							</td>
 							<td>
-								CRM
+								5.2. Объектный канал сбыта.
+							</td>
+							<td class = "name-td">
+								Баранов Д.<br>
+								Самусенко П.
+							</td>
+						</tr>
+						<tr>
+							<td class = "time-td">
+								15:15-15:30
 							</td>
 							<td>
-								Дмитрий Брацун
+								5.3. Маркетплейсы
+							</td>
+							<td class = "name-td">
+								Земсков М.<br>
+								Куц А.
+							</td>
+						</tr>
+						<tr>
+							<td class = "time-td">
+								15:30-16:10
+							</td>
+							<td>
+								5.4. Бренд/ Продвижение / Маркетинговый план<br>
+								РЕХАУ ХОУМ
+							</td>
+							<td class = "name-td">
+								Большакова Е.
+							<br>
+								Баранов Д
+							</td>
+						</tr>
+						<tr>
+							<td class = "time-td">
+								16:10-16:30
+							</td>
+							<td class = "colored-td" colspan = "2">
+								КОФЕ-БРЕЙК
+							</td>
+						</tr>
+						<tr>
+							<td class = "time-td">
+								16:30-17:00
+							</td>
+							<td>
+								Подведение итогов. Обратная связь
+							</td>
+							<td>
+								все участники
 							</td>
 						</tr>
 <!-- Третий ряд, конец -->
@@ -334,5 +363,6 @@
         <? require_once('../php/green-bottom.php'); ?>
 	</div>
 	<? require_once('../php/footer.php'); ?>
+	<script src = "/js/script.js"></script>
 </body>
 </html>

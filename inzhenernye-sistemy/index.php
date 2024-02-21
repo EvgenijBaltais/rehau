@@ -3,24 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Программа «СПК»</title>
+	<title>Программа «ИНЖЕНЕРНЫЕ СИСТЕМЫ»</title>
 	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 	<div class="wrapper">
 		<? require_once('../php/header.php'); ?>
-		<div class="top-slider top-slider-spk" style = "background-image: url('/images/glavnaya.jpg');">
+		<div class="top-slider top-slider-spk" style = "background-image: url('/images/g2.jpg');">
 			<div class="slider-block">
-				<p class = "slider-block-title">Программа направления «ИНЖЕНЕРНЫЕ СИСТЕМЫ»</p>
+				<p class = "slider-block-title">Программа «ИНЖЕНЕРНЫЕ СИСТЕМЫ»</p>
 				<button class = "slider-block-button">Перейти к программе</button>
 			</div>
 		</div>
 		<section class = "section page-content">
-
 			<h1>«ИНЖЕНЕРНЫЕ СИСТЕМЫ»</h1>
-
 			<div class = "page-table">
-
 				<table class = "table">
 					<thead>
 						<tr>
@@ -34,57 +31,46 @@
 					<tbody>
 <!-- Первый ряд -->
 						<tr>
-							<td rowspan = "9" valign = "top" align = "center" class = "colored-td bold-td ">
+							<td rowspan = "10" valign = "top" align = "center" class = "colored-td bold-td day-td">
 								ПН<br>
-								26.02.
+								26.02
 							</td>
-							<td>
+							<td class = "time-td">
 								14:00-14:30
 							</td>
 							<td>
-								вступление, стратегия, приоритеты 2024
+								Вступление, стратегия, приоритеты 2024
 							</td>
-							<td>Иванов Андрей
+							<td class = "name-td">Иванов Андрей
 							</td>
-							<td rowspan = "9" valign = "center">
+							<td rowspan = "10" valign = "center" class = "hall-td">
 								Монреаль
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								14:30-15:30
 							</td>
 							<td>
 								Новые продукты, продуктовая стратегия 2024
 							</td>
-							<td>
+							<td class = "name-td">
 								Светилов Станислав
 							</td>
 						</tr>
 						<tr>
-							<td>
-								14:30-15:30
-							</td>
-							<td>
-								Новые продукты, продуктовая стратегия 2024
-							</td>
-							<td>
-								Светилов Станислав
-							</td>
-						</tr>
-						<tr>
-							<td>
+							<td class = "time-td">
 								15:30- 16:00
 							</td>
 							<td>
 								коммерческая политика 2024
 							</td>
-							<td>
+							<td class = "name-td">
 								Черепахин Павел
 							</td>
 						</tr>
 						<tr>
-							<td class = "colored-td">
+							<td class = "colored-td time-td">
 								15:30-16:00
 							</td>
 							<td colspan = "2" class = "colored-td">
@@ -92,222 +78,227 @@
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								16:20-16:50
 							</td>
 							<td>
 								Ситуация на объектном рынке, планы, приоритеты 2024
 							</td>
-							<td>
+							<td class = "name-td">
 								Тюменев Руслан
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								17:00-18:00
 							</td>
 							<td>
 								Девелоперы, Комплектация строительных объектов
 							</td>
-							<td>
+							<td class = "name-td">
 								Моновец Елена
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								17:10-17:30
 							</td>
 							<td>
 								DIY&MP, результаты, цели и задачи на 2024 г
 							</td>
-							<td>
+							<td class = "name-td">
 								Мишинев Дмитрий
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								17:30-17:45
 							</td>
 							<td>
 								Работа с полкой
 							</td>
-							<td>
+							<td class = "name-td">
 								Винокуров Дмитрий
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								17:45-18:00
 							</td>
 							<td>
 								Контроль рынка ИС: контроль РРЦ и идентификация и работа с подделками
 							</td>
-							<td>
+							<td class = "name-td">
 								Юркина Екатерина
 							</td>
+						</tr>
+						<tr>
+							<td class = "empty-td"></td>
+							<td class = "empty-td"></td>
+							<td class = "empty-td"></td>
 						</tr>
 <!-- Первый ряд, конец -->
 <!-- Второй ряд -->
 						<tr>
-							<td rowspan = "23" valign = "top" align = "center" class = "colored-td bold-td ">
+							<td rowspan = "23" valign = "top" align = "center" class = "colored-td bold-td day-td">
 								ВТ<br>
-								27.02.
+								27.02
 							</td>
-							<td>
+							<td class = "time-td">
 								09:00-09:15
 							</td>
 							<td>
 								KC: нововведения, особенности работы в 2024
 							</td>
-							<td>
+							<td class = "name-td">
 								Епифанова Анна
 							</td>
-							<td rowspan = "23" valign = "center">
+							<td rowspan = "23" valign = "center" class = "hall-td">
 								Монреаль
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								09:15-09:30
 							</td>
 							<td>
 								Федеральная дистрибьюция, планы, приоритеты 2024
 							</td>
-							<td>
+							<td class = "name-td">
 								Бочков Денис
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								09:30-09:45
 							</td>
 							<td>
 								Программа развития партнеров
 							</td>
-							<td>
+							<td class = "name-td">
 								Родичев Михаил
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								09:45-10:00
 							</td>
 							<td>
 								Программа развития партнеров
 							</td>
-							<td>
+							<td class = "name-td">
 								Калинштейн Александр
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								10:00-10:15
 							</td>
 							<td>
 								Программа развития партнеров
 							</td>
-							<td>
+							<td class = "name-td">
 								Михайлов Дмитрий
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								10:15-10:30
 							</td>
 							<td>
 								Программа развития партнеров
 							</td>
-							<td>
+							<td class = "name-td">
 								Сивакова Юлия
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								10:30-10:40
 							</td>
 							<td>
 								Развитие канала продаж через М и МО
 							</td>
-							<td>
+							<td class = "name-td">
 								Кацура Дмитрий
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								10:40-10:50
 							</td>
 							<td>
 								Развитие канала продаж через М и МО
 							</td>
-							<td>
+							<td class = "name-td">
 								Стрелков Никита
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								10:50-11.00
 							</td>
 							<td>
 								Приветственное слово
 							</td>
-							<td>
+							<td class = "name-td">
 								Бычкова Наталья
 							</td>
 						</tr>
 						<tr>
-							<td class = "colored-td">
-								13:00-14:00
+							<td class = "colored-td time-td">
+								11:00-11:20
 							</td>
 							<td colspan = "2" class = "colored-td">
-								ОБЕД
+								КОФЕ-БРЕЙК
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								11:20-11:30
 							</td>
 							<td>
 								Приветственное слово
 							</td>
-							<td>
+							<td class = "name-td">
 								Ковалёв Андрей
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								11:30-12:00
 							</td>
 							<td>
 								Сибирь и Дальний Восток
 							</td>
-							<td>
+							<td class = "name-td">
 								Поздняков Константин
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								12:00-12:30
 							</td>
 							<td>
 								Урал
 							</td>
-							<td>
+							<td class = "name-td">
 								Юфа Роман
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								12:30-13:00
 							</td>
 							<td>
 								Поволжье
 							</td>
-							<td>
+							<td class = "name-td">
 								Зенин Михаил
 							</td>
 						</tr>
 						<tr>
-							<td class = "colored-td">
+							<td class = "colored-td time-td">
 								13:00-14:00
 							</td>
 							<td colspan = "2" class = "colored-td">
@@ -315,40 +306,40 @@
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								14.00-14:30
 							</td>
 							<td>
 								Южный
 							</td>
-							<td>
+							<td class = "name-td">
 								Баранов Алексей
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								14:30-15:00
 							</td>
 							<td>
 								Санкт-Петербург
 							</td>
-							<td>
+							<td class = "name-td">
 								Градов Алексей
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								15:00-15:30
 							</td>
 							<td>
 								Центральный, объектные продажи
 							</td>
-							<td>
+							<td class = "name-td">
 								Воскобойников Алексей
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								15:30-16:00
 							</td>
 							<td colspan = "2">
@@ -356,7 +347,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td class = "colored-td">
+							<td class = "colored-td time-td">
 								16:00-16:20
 							</td>
 							<td colspan = "2" class = "colored-td">
@@ -364,42 +355,41 @@
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								16:20-16:40
 							</td>
 							<td>
 								Общая вводная D&C
 							</td>
-							<td>
+							<td class = "name-td">
 								Фролов Станислав
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								16:20-17:20
 							</td>
 							<td>
 								Общий маркетинг
 							</td>
-							<td>
+							<td class = "name-td">
 								Куплинова Анастасия
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								17:20-18:00
 							</td>
 							<td>
 								Социальные медиа, внутренние коммуникации
 							</td>
-							<td>
+							<td class = "name-td">
 								Полякова Александра
 							</td>
 						</tr>
 						<tr>
-							<td rowspan = "23" valign = "top" align = "center" class = "colored-td bold-td">
-							</td>
-							<td class = "colored-td">
+							<td valign = "top" align = "center" class = "colored-td bold-td"></td>
+							<td class = "colored-td time-td">
 								18.30 – 22.00 
 							</td>
 							<td class = "colored-td">
@@ -412,50 +402,57 @@
 								Автобус 3 и 4
 							</td>
 						</tr>
+						<tr>
+							<td class = "empty-td"></td>
+							<td class = "empty-td"></td>
+							<td class = "empty-td"></td>
+							<td class = "empty-td"></td>
+							<td class = "empty-td"></td>
+						</tr>
 <!-- Второй ряд, конец -->
 <!-- Третий ряд -->
 						<tr>
-							<td rowspan = "11" valign = "top" align = "center" class = "colored-td bold-td ">
+							<td rowspan = "11" valign = "top" align = "center" class = "colored-td bold-td day-td">
 								СР<br>
-								28.02.
+								28.02
 							</td>
-							<td>
+							<td class = "time-td">
 								9:00-09:40
 							</td>
 							<td>
 								R.Bot, Цифровые каналы коммуникаций
 							</td>
-							<td>
+							<td class = "name-td">
 								Илюшина Мария
 							</td>
-							<td rowspan = "11" valign = "center">
+							<td rowspan = "11" valign = "center" class = "hall-td">
 								Монреаль
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								09:40-10:10
 							</td>
 							<td>
 								R.Garant, R.Bonus, Сервис сертификатов дистрибьюторов
 							</td>
-							<td>
+							<td class = "name-td">
 								Порфирьева Наталья
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								10:10-11:00
 							</td>
 							<td>
 								Рехау.Про, PIM, App.
 							</td>
-							<td>
+							<td class = "name-td">
 								Щеляев Александр
 							</td>
 						</tr>
 						<tr>
-							<td class = "colored-td">
+							<td class = "colored-td time-td">
 								11:00-11:20
 							</td>
 							<td colspan = "2" class = "colored-td">
@@ -463,32 +460,30 @@
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								11:20-12:20
 							</td>
 							<td>
 								Техническое развитие, лаборатория
 							</td>
-							<td>
+							<td class = "name-td">
 								Зинченко  Денис
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								12:20-13:00
 							</td>
 							<td colspan = "2">
-								Ответы на вопросы и возражения,
-								формирование новых по темам:
-								- лаборатория
-								- кодирование/приложение 
+								Ответы на вопросы и возражения,<br>
+								формирование новых по темам:<br>
+								- лаборатория<br>
+								- кодирование/приложение<br>
 								- новые продукты
-							</td>
-							<td>
 							</td>
 						</tr>
 						<tr>
-							<td class = "colored-td">
+							<td class = "colored-td time-td">
 								13:00-14:00
 							</td>
 							<td colspan = "2" class = "colored-td">
@@ -496,7 +491,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								14:00-15:00
 							</td>
 							<td colspan = "2">
@@ -504,7 +499,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								15:00-16:00
 							</td>
 							<td colspan = "2">
@@ -512,7 +507,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td class = "colored-td">
+							<td class = "colored-td time-td">
 								16:00-16:20
 							</td>
 							<td colspan = "2" class = "colored-td">
@@ -520,7 +515,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class = "time-td">
 								16:20-17:00
 							</td>
 							<td colspan = "2">
@@ -536,5 +531,6 @@
         <? require_once('../php/green-bottom.php'); ?>
 	</div>
 	<? require_once('../php/footer.php'); ?>
+	<script src = "/js/script.js"></script>
 </body>
 </html>

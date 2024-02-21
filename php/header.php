@@ -1,7 +1,7 @@
         <header class = "header section">
-            <div class="logo">
+            <a href = "/" class="logo">
                 <img src="/images/logo.png" alt="" class="logo-pic">
-            </div>
+            </a>
             <nav class = "nav">
                 <ul class = "nav-list">
                     <li class = "nav-list-item">
